@@ -1,0 +1,27 @@
+{
+  "304870309779996672": {
+    "permissions": {
+      "zml.dmrole": true,
+      "zml.purge": true,
+      "zml.permission": true,
+      "zml.perm": true,
+      "zml.promote": true,
+      "zml.set": true,
+      "zml.announce": true,
+      "zml.role": true,
+      "zml.embed": true,
+      "zmlembed": true,
+      "zml.warn": true,
+      "zml.kick": true,
+      "zml.ban": true,
+      "zml.unban": true,
+      "zml.blacklist": true,
+      "zml.mute": true,
+      "zml.messagelog": true,
+      "zml.restart": true,
+      "zml.activitycheck": true,
+      "zml.reactcheck": true,
+      "zml.withdraw": true
+    }
+  }
+}

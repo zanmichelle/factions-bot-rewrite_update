@@ -1,0 +1,53 @@
+{
+  "bot_setUp": true,
+  "Blacklisted_Users": {},
+  "fGrace_Period": {
+    "disabled": false,
+    "timeStart": "01:40",
+    "timeEnd": "13:00",
+    "length": 2
+  },
+  "configuration": {
+    "Channels": {
+      "ftopChannel": "643532224385515560",
+      "serverchatChannel": "1049491503640227920",
+      "joinleaveChannel": "643532224385515560",
+      "wallChannel": "643532224385515560",
+      "bufferChannel": "643532224385515560",
+      "bankChannel": "643532224385515560",
+      "rotateLogChannel": "643532224385515560",
+      "flistChannel": "643532224385515560",
+      "facAuditChannel": "643532224385515560",
+      "logChannel": "643532224385515560",
+      "annouceChannel": "643532224385515560",
+      "verificationChannel": "643532224385515560",
+      "membersChannel": "643532224385515560",
+      "vanishChannel": "643532224385515560"
+    },
+    "Switches": {
+      "autoFtop": false,
+      "autoFlist": true,
+      "facAudit": true,
+      "serverchat": true,
+      "wallChecks": true,
+      "bufferChecks": true,
+      "joinleave": true,
+      "embedJoinLeave": true,
+      "rotateLog": true,
+      "vanish": true
+    },
+    "Messages": {
+      "rotateMsg": ":arrows_clockwise: [rUser] was rotated out for [user]",
+      "joinMsg": ":white_check_mark: Welcome to [server], [user]!",
+      "leaveMsg": ":x: [user_tag] has left the server.",
+      "wallMsg": "Walls haven't been checked for [minutes] minutes! type ,checked to checked them!",
+      "bufferMsg": "Buffers haven't been checked for [minutes] minutes! type ,checked to checked them!",
+      "wallCheckMsg": "Walls have been checked by [ign] - [total]",
+      "bufferCheckMsg": "Buffers have been checked by [ign] - [total]",
+      "weewooMsg": "WEEWOO We are being raided! WEEWOO",
+      "bankMsg": "MONEY : [ign] has just [type] $[money]!",
+      "wallTime": 15,
+      "bufferTime": 30
+    }
+  }
+}

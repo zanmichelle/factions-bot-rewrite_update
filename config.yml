@@ -1,0 +1,84 @@
+Auth_token:
+  token: "28100941394"
+
+altinfo:
+  email: your@email
+  password:  
+  joinCMD: /f c f
+  serverIP: mc.crispypvp.com
+  serverPort: 25565
+  version: 1.8.8
+
+ingame_configs:
+  ingame_features_isEnabled: true #This is for all ingame Features -> true/false
+  ftop_enabled: true
+  flist_enabled: true
+  fwho_enabled: true
+  balance_enabled: true
+  baltop_enabled: true
+  fwho_online_enabled: true
+  playtime_isTracked: true
+  force_enabled: true
+  rotations: true
+  ingameCommands_enabled: true # If set to false, ALL ingame commands are disabled.
+
+  # General Information
+  fwho_stopArg: " * Offline Members" # Where FWho should stop
+
+  # Bank configs
+  ingame_bank: true
+  bank_msgIngame: true
+  min_bank_deposit: 10000
+
+  walls_ingame: true
+  buffer_ingame: true
+  wallCheck_ingame: true
+  bufferCheck_ingame: true
+  weewoo_ingame: true
+  vanish_ingame: false
+  consoleChat: true #Displays chat in console 
+  fgrace_wallChecks: false
+  fgrace_bufferChecks: false
+
+  # The roles that will be tagged by the bot for a wall check, box check or weewoo message - use the role name!
+  roles_toTag:
+    - NA
+    - EU
+    - AU
+
+  # Commands
+  ftopCMD: /f top 
+  flistCMD: /f list
+  baltopCMD: /baltop 
+  ingameCMDFormat: "[response]" # For ingame commands (.checked, .calc, etc.)
+  commandMessageDelay: 0 # Delay to respond to commands ingame
+
+  #Timings
+  ftopTime: 0,30 #ftop & flist are at WHICH minutes to execute (0,30 stands at <hour>:0minutes and at <hour>:30mintues) <- each half an hour
+  #could do same with 15,45 meaning at <hour>:15minutes and <hour>:45minutes
+  flistTime: 0,30
+  #for fwho is each <amount> of minutes. 5 -> meaning the command will execute each 5 minutes (5min,10min,15min,etc...)
+  vanish: 1
+  fwho_onlineTimeRange: 15
+  #How to: <seconds> by 1000 = Number in here => 5<seconds> x 1000 = 5000 -> this would be for 5 seconds
+  ingameCommandCooldown: 3000
+  discordCommandCooldown: 1500
+  wallCheckCooldown: 600000
+  bufferCheckCooldown: 1800000
+
+  # The factions to be put in the auto FOnline
+  autoOnlineFactions:
+    - fac1
+    - fac2
+
+
+Discord_Configs:
+  discord_token: discordToken
+  main_guild: "discord guild id" # The main Discord server ID this bot will be used in
+  allowed_guilds:
+    - "641338599241154560"
+    - "even more"
+  prefix: ","
+  joinRole: "Some Role" #add new users role automaticlly when they join. MUST be entered!!!
+  blacklistedChannel_allowVerified: true # Allows anyone who is verified with .iam to run cmds in blacklisted channels
+  manager_roleName: "Developer" # Role name of the role to use .add, accept applications, etc.

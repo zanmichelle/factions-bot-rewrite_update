@@ -1,0 +1,698 @@
+{
+    "_events": {},
+    "_eventsCount": 8,
+    "_client": {
+        "_events": {
+            "connect": [
+                null,
+                null
+            ],
+            "end": [
+                null,
+                null
+            ],
+            "disconnect": [
+                null,
+                null
+            ],
+            "game_state_change": [
+                null,
+                null,
+                null
+            ],
+            "entity_metadata": [
+                null,
+                null
+            ],
+            "set_slot": [
+                null,
+                null
+            ],
+            "login": [
+                null,
+                null,
+                null
+            ],
+            "spawn_entity": [
+                null,
+                null
+            ],
+            "entity_destroy": [
+                null,
+                null
+            ],
+            "entity_status": [
+                null,
+                null
+            ],
+            "attach_entity": [
+                null,
+                null
+            ],
+            "respawn": [
+                null,
+                null
+            ],
+            "update_health": [
+                null,
+                null
+            ]
+        },
+        "_eventsCount": 64,
+        "version": "1.8.8",
+        "isServer": false,
+        "splitter": {
+            "_readableState": {
+                "objectMode": false,
+                "highWaterMark": 16384,
+                "buffer": {
+                    "head": null,
+                    "tail": null,
+                    "length": 0
+                },
+                "length": 0,
+                "pipes": {
+                    "_readableState": {
+                        "objectMode": true,
+                        "highWaterMark": 16,
+                        "buffer": {
+                            "head": null,
+                            "tail": null,
+                            "length": 0
+                        },
+                        "length": 0,
+                        "pipes": null,
+                        "pipesCount": 0,
+                        "flowing": true,
+                        "ended": false,
+                        "endEmitted": false,
+                        "reading": false,
+                        "sync": false,
+                        "needReadable": true,
+                        "emittedReadable": false,
+                        "readableListening": false,
+                        "resumeScheduled": true,
+                        "paused": false,
+                        "emitClose": true,
+                        "autoDestroy": false,
+                        "destroyed": false,
+                        "defaultEncoding": "utf8",
+                        "awaitDrain": 0,
+                        "readingMore": false,
+                        "decoder": null,
+                        "encoding": null
+                    },
+                    "readable": true,
+                    "_events": {
+                        "error": [
+                            null,
+                            null
+                        ]
+                    },
+                    "_eventsCount": 7,
+                    "_writableState": {
+                        "objectMode": false,
+                        "highWaterMark": 16384,
+                        "finalCalled": false,
+                        "needDrain": false,
+                        "ending": false,
+                        "ended": false,
+                        "finished": false,
+                        "destroyed": false,
+                        "decodeStrings": true,
+                        "defaultEncoding": "utf8",
+                        "length": 0,
+                        "writing": false,
+                        "corked": 0,
+                        "sync": true,
+                        "bufferProcessing": false,
+                        "writecb": null,
+                        "writelen": 0,
+                        "bufferedRequest": null,
+                        "lastBufferedRequest": null,
+                        "pendingcb": 0,
+                        "prefinished": false,
+                        "errorEmitted": false,
+                        "emitClose": true,
+                        "autoDestroy": false,
+                        "bufferedRequestCount": 0,
+                        "corkedRequestsFree": {
+                            "next": null,
+                            "entry": null
+                        }
+                    },
+                    "writable": true,
+                    "allowHalfOpen": true,
+                    "_transformState": {
+                        "needTransform": false,
+                        "transforming": false,
+                        "writecb": null,
+                        "writechunk": null,
+                        "writeencoding": null
+                    },
+                    "proto": {
+                        "sizeOfCtx": {},
+                        "writeCtx": {},
+                        "readCtx": {}
+                    },
+                    "mainType": "packet",
+                    "noErrorLogging": true
+                },
+                "pipesCount": 1,
+                "flowing": true,
+                "ended": false,
+                "endEmitted": false,
+                "reading": false,
+                "sync": false,
+                "needReadable": true,
+                "emittedReadable": false,
+                "readableListening": false,
+                "resumeScheduled": true,
+                "paused": false,
+                "emitClose": true,
+                "autoDestroy": false,
+                "destroyed": false,
+                "defaultEncoding": "utf8",
+                "awaitDrain": 0,
+                "readingMore": false,
+                "decoder": null,
+                "encoding": null
+            },
+            "readable": true,
+            "_events": {},
+            "_eventsCount": 3,
+            "_writableState": {
+                "objectMode": false,
+                "highWaterMark": 16384,
+                "finalCalled": false,
+                "needDrain": false,
+                "ending": false,
+                "ended": false,
+                "finished": false,
+                "destroyed": false,
+                "decodeStrings": true,
+                "defaultEncoding": "utf8",
+                "length": 0,
+                "writing": false,
+                "corked": 0,
+                "sync": true,
+                "bufferProcessing": false,
+                "writecb": null,
+                "writelen": 0,
+                "bufferedRequest": null,
+                "lastBufferedRequest": null,
+                "pendingcb": 0,
+                "prefinished": false,
+                "errorEmitted": false,
+                "emitClose": true,
+                "autoDestroy": false,
+                "bufferedRequestCount": 0,
+                "corkedRequestsFree": {
+                    "next": null,
+                    "entry": null
+                }
+            },
+            "writable": true,
+            "allowHalfOpen": true,
+            "_transformState": {
+                "needTransform": false,
+                "transforming": false,
+                "writecb": null,
+                "writechunk": null,
+                "writeencoding": null
+            },
+            "buffer": {
+                "type": "Buffer",
+                "data": []
+            },
+            "recognizeLegacyPing": true
+        },
+        "packetsToParse": {},
+        "compressor": null,
+        "framer": {
+            "_readableState": {
+                "objectMode": false,
+                "highWaterMark": 16384,
+                "buffer": {
+                    "head": null,
+                    "tail": null,
+                    "length": 0
+                },
+                "length": 0,
+                "pipes": null,
+                "pipesCount": 0,
+                "flowing": null,
+                "ended": false,
+                "endEmitted": false,
+                "reading": false,
+                "sync": false,
+                "needReadable": true,
+                "emittedReadable": false,
+                "readableListening": false,
+                "resumeScheduled": false,
+                "paused": true,
+                "emitClose": true,
+                "autoDestroy": false,
+                "destroyed": false,
+                "defaultEncoding": "utf8",
+                "awaitDrain": 0,
+                "readingMore": false,
+                "decoder": null,
+                "encoding": null
+            },
+            "readable": true,
+            "_events": {},
+            "_eventsCount": 6,
+            "_writableState": {
+                "objectMode": false,
+                "highWaterMark": 16384,
+                "finalCalled": false,
+                "needDrain": false,
+                "ending": false,
+                "ended": false,
+                "finished": false,
+                "destroyed": false,
+                "decodeStrings": true,
+                "defaultEncoding": "utf8",
+                "length": 0,
+                "writing": false,
+                "corked": 0,
+                "sync": true,
+                "bufferProcessing": false,
+                "writecb": null,
+                "writelen": 0,
+                "bufferedRequest": null,
+                "lastBufferedRequest": null,
+                "pendingcb": 0,
+                "prefinished": false,
+                "errorEmitted": false,
+                "emitClose": true,
+                "autoDestroy": false,
+                "bufferedRequestCount": 0,
+                "corkedRequestsFree": {
+                    "next": null,
+                    "entry": null
+                }
+            },
+            "writable": true,
+            "allowHalfOpen": true,
+            "_transformState": {
+                "needTransform": false,
+                "transforming": false,
+                "writecb": null,
+                "writechunk": null,
+                "writeencoding": null
+            }
+        },
+        "cipher": null,
+        "decipher": null,
+        "decompressor": null,
+        "ended": true,
+        "latency": 0,
+        "hideErrors": true,
+        "closeTimer": null,
+        "protocolState": "handshaking",
+        "serializer": {
+            "_readableState": {
+                "objectMode": false,
+                "highWaterMark": 16384,
+                "buffer": {
+                    "head": null,
+                    "tail": null,
+                    "length": 0
+                },
+                "length": 0,
+                "pipes": {
+                    "_readableState": {
+                        "objectMode": false,
+                        "highWaterMark": 16384,
+                        "buffer": {
+                            "head": null,
+                            "tail": null,
+                            "length": 0
+                        },
+                        "length": 0,
+                        "pipes": null,
+                        "pipesCount": 0,
+                        "flowing": null,
+                        "ended": false,
+                        "endEmitted": false,
+                        "reading": false,
+                        "sync": false,
+                        "needReadable": true,
+                        "emittedReadable": false,
+                        "readableListening": false,
+                        "resumeScheduled": false,
+                        "paused": true,
+                        "emitClose": true,
+                        "autoDestroy": false,
+                        "destroyed": false,
+                        "defaultEncoding": "utf8",
+                        "awaitDrain": 0,
+                        "readingMore": false,
+                        "decoder": null,
+                        "encoding": null
+                    },
+                    "readable": true,
+                    "_events": {},
+                    "_eventsCount": 6,
+                    "_writableState": {
+                        "objectMode": false,
+                        "highWaterMark": 16384,
+                        "finalCalled": false,
+                        "needDrain": false,
+                        "ending": false,
+                        "ended": false,
+                        "finished": false,
+                        "destroyed": false,
+                        "decodeStrings": true,
+                        "defaultEncoding": "utf8",
+                        "length": 0,
+                        "writing": false,
+                        "corked": 0,
+                        "sync": true,
+                        "bufferProcessing": false,
+                        "writecb": null,
+                        "writelen": 0,
+                        "bufferedRequest": null,
+                        "lastBufferedRequest": null,
+                        "pendingcb": 0,
+                        "prefinished": false,
+                        "errorEmitted": false,
+                        "emitClose": true,
+                        "autoDestroy": false,
+                        "bufferedRequestCount": 0,
+                        "corkedRequestsFree": {
+                            "next": null,
+                            "entry": null
+                        }
+                    },
+                    "writable": true,
+                    "allowHalfOpen": true,
+                    "_transformState": {
+                        "needTransform": false,
+                        "transforming": false,
+                        "writecb": null,
+                        "writechunk": null,
+                        "writeencoding": null
+                    }
+                },
+                "pipesCount": 1,
+                "flowing": true,
+                "ended": false,
+                "endEmitted": false,
+                "reading": false,
+                "sync": false,
+                "needReadable": true,
+                "emittedReadable": false,
+                "readableListening": false,
+                "resumeScheduled": true,
+                "paused": false,
+                "emitClose": true,
+                "autoDestroy": false,
+                "destroyed": false,
+                "defaultEncoding": "utf8",
+                "awaitDrain": 0,
+                "readingMore": false,
+                "decoder": null,
+                "encoding": null
+            },
+            "readable": true,
+            "_events": {},
+            "_eventsCount": 4,
+            "_writableState": {
+                "objectMode": true,
+                "highWaterMark": 16,
+                "finalCalled": false,
+                "needDrain": false,
+                "ending": false,
+                "ended": false,
+                "finished": false,
+                "destroyed": false,
+                "decodeStrings": true,
+                "defaultEncoding": "utf8",
+                "length": 0,
+                "writing": false,
+                "corked": 0,
+                "sync": true,
+                "bufferProcessing": false,
+                "writecb": null,
+                "writelen": 0,
+                "bufferedRequest": null,
+                "lastBufferedRequest": null,
+                "pendingcb": 0,
+                "prefinished": false,
+                "errorEmitted": false,
+                "emitClose": true,
+                "autoDestroy": false,
+                "bufferedRequestCount": 0,
+                "corkedRequestsFree": {
+                    "next": null,
+                    "entry": null
+                }
+            },
+            "writable": true,
+            "allowHalfOpen": true,
+            "_transformState": {
+                "needTransform": false,
+                "transforming": false,
+                "writecb": null,
+                "writechunk": null,
+                "writeencoding": null
+            },
+            "proto": {
+                "sizeOfCtx": {},
+                "writeCtx": {},
+                "readCtx": {}
+            },
+            "mainType": "packet",
+            "queue": {
+                "type": "Buffer",
+                "data": []
+            }
+        },
+        "deserializer": {
+            "_readableState": {
+                "objectMode": true,
+                "highWaterMark": 16,
+                "buffer": {
+                    "head": null,
+                    "tail": null,
+                    "length": 0
+                },
+                "length": 0,
+                "pipes": null,
+                "pipesCount": 0,
+                "flowing": true,
+                "ended": false,
+                "endEmitted": false,
+                "reading": false,
+                "sync": false,
+                "needReadable": true,
+                "emittedReadable": false,
+                "readableListening": false,
+                "resumeScheduled": true,
+                "paused": false,
+                "emitClose": true,
+                "autoDestroy": false,
+                "destroyed": false,
+                "defaultEncoding": "utf8",
+                "awaitDrain": 0,
+                "readingMore": false,
+                "decoder": null,
+                "encoding": null
+            },
+            "readable": true,
+            "_events": {
+                "error": [
+                    null,
+                    null
+                ]
+            },
+            "_eventsCount": 7,
+            "_writableState": {
+                "objectMode": false,
+                "highWaterMark": 16384,
+                "finalCalled": false,
+                "needDrain": false,
+                "ending": false,
+                "ended": false,
+                "finished": false,
+                "destroyed": false,
+                "decodeStrings": true,
+                "defaultEncoding": "utf8",
+                "length": 0,
+                "writing": false,
+                "corked": 0,
+                "sync": true,
+                "bufferProcessing": false,
+                "writecb": null,
+                "writelen": 0,
+                "bufferedRequest": null,
+                "lastBufferedRequest": null,
+                "pendingcb": 0,
+                "prefinished": false,
+                "errorEmitted": false,
+                "emitClose": true,
+                "autoDestroy": false,
+                "bufferedRequestCount": 0,
+                "corkedRequestsFree": {
+                    "next": null,
+                    "entry": null
+                }
+            },
+            "writable": true,
+            "allowHalfOpen": true,
+            "_transformState": {
+                "needTransform": false,
+                "transforming": false,
+                "writecb": null,
+                "writechunk": null,
+                "writeencoding": null
+            },
+            "proto": {
+                "sizeOfCtx": {},
+                "writeCtx": {},
+                "readCtx": {}
+            },
+            "mainType": "packet",
+            "noErrorLogging": true
+        }
+    },
+    "protocolVersion": 47,
+    "majorVersion": "1.8",
+    "version": "1.8.8",
+    "isSleeping": false,
+    "creative": {},
+    "targetDigBlock": null,
+    "lastDigTime": null,
+    "players": {},
+    "uuidToUsername": {},
+    "entities": {},
+    "experience": {
+        "level": null,
+        "points": null,
+        "progress": null
+    },
+    "game": {},
+    "isAlive": true,
+    "quickBarSlot": null,
+    "inventory": {
+        "_events": {},
+        "_eventsCount": 0,
+        "id": 0,
+        "type": "minecraft:inventory",
+        "title": "Inventory",
+        "slots": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "inventoryStart": 9,
+        "inventoryEnd": 45,
+        "hotbarStart": 36,
+        "craftingResultSlot": 0,
+        "requiresConfirmation": true,
+        "selectedItem": null
+    },
+    "currentWindow": null,
+    "heldItem": null,
+    "usingHeldItem": false,
+    "isRaining": false,
+    "thunderState": 0,
+    "rainState": 0,
+    "scoreboards": {},
+    "scoreboard": {},
+    "teams": {},
+    "teamMap": {},
+    "settings": {
+        "chat": "enabled",
+        "colorsEnabled": true,
+        "viewDistance": "tiny",
+        "difficulty": 2,
+        "skinParts": {
+            "showCape": true,
+            "showJacket": true,
+            "showLeftSleeve": true,
+            "showRightSleeve": true,
+            "showLeftPants": true,
+            "showRightPants": true,
+            "showHat": true
+        },
+        "mainHand": "right"
+    },
+    "simpleClick": {},
+    "QUICK_BAR_START": 36,
+    "spawnPoint": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "tablist": {
+        "header": {
+            "json": {
+                "text": ""
+            },
+            "text": ""
+        },
+        "footer": {
+            "json": {
+                "text": ""
+            },
+            "text": ""
+        }
+    },
+    "time": {
+        "doDaylightCycle": null,
+        "bigTime": null,
+        "time": null,
+        "timeOfDay": null,
+        "day": null,
+        "isDay": null,
+        "moonPhase": null,
+        "bigAge": null,
+        "age": null
+    }
+}
